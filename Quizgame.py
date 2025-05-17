@@ -37,6 +37,6 @@ quiz_questions = [
 ]
 
 # Start the quiz
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("🎉 Welcome to the Quiz Game!")
     run_quiz(quiz_questions)
